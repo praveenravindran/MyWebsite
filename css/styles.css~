@@ -1,0 +1,290 @@
+/* ===============================
+   Author: {YOUR NAME HERE}
+   Date:   {DATE HERE}
+   
+   Notes:
+   Hand coded for Build a Website
+   from Scratch with HTML & CSS
+   by Brad Hussey
+   
+   Colour Palette:
+   ---------------
+   Light Cream:		#f2f3ee
+   Orange:	xt		#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+
+/* General */
+#me{
+	width: 300px;
+	height: 300px;
+
+}
+
+
+
+body{
+	background:#f2f3ee url('../images/bg-tile.gif') top left repeat;
+	color:#4b2707;
+	font-size:14px;
+	font-family:'Open Sans','Helvetica Neue','Helvetica','Arial' sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	
+}
+
+.container{
+		width:924px;
+		margin: 0 auto;
+		padding:30px 24px;
+}
+
+
+
+
+
+/* Typography */
+
+h1,h2,h3,h4,h5{
+		color:#d17f38;
+		font-size:40px;
+		font-weight:normal;
+		font-family:font-family: 'Love Ya Like A Sister', cursive;
+		margin:0;
+		line-height:44px;
+}
+
+h1{
+	text-align:left;
+	padding:0 0 20px;
+	background:url('../images/header-divider.png')bottom center np-repeat;
+}
+
+h1 em{
+	font-style:normal;
+	color:#4b2707;
+}
+
+h2{
+	font-size:34px;
+}
+
+h2 em{
+	font-style:normal;
+	color:#4b2707;
+}
+
+p{
+	margin:0;
+}
+
+a:link{
+	color:#d17f38;
+	text-decoration:none;
+}
+
+a:visited{
+	color:#d17f38;
+}
+
+a:hover{
+	color:#4b2707;
+}
+
+hr{
+	border:none;
+	margin:30px auto;
+	height:33px;
+	width:333px;
+	background:url('../images/divider.png') center center no-repeat;
+}
+
+
+
+
+
+/* Header */
+
+header nav{
+	  text-align: center;
+}
+
+header nav ul{
+	 	margin:0;
+		padding:0;
+		list-style:none;
+		display:block;
+		line-height:140px;
+}
+
+header nav ul li{
+		display:inline-block;
+		padding:0 20px;
+}
+
+header nav ul li a{
+			text-transform:	uppercase;
+			font-weight:bold;
+}
+
+header nav ul li a:hover{
+			color:	#4b2707;		
+}
+
+header nav ul li#logo a{
+	display:block;
+	background:url('../images/logo1.png') center center no-repeat;
+	width:160px;
+	height:170px;
+	text-indent:-999999px;
+}
+
+header nav ul li#name{
+			text-transform:uppercase;
+			font-weight:bold;
+			font-family: 'Love Ya Like A Sister', cursive;
+			color:#4b2707;
+}
+
+/* Hero */
+
+#hero .container img{
+		     float:left;
+		     padding: 10px 130px 30px 0px;
+}
+
+#hero .container{
+		width:1300px;
+		height:350px;
+		margin:0 0;
+		background:#4b2707 url('../images/yellow.jpg') top left repeat;
+
+}
+
+#hero #about-me{
+		text-transform:uppercase;
+		font-weight:bold;
+		font-family: 'Love Ya Like A Sister', cursive;
+		color:#4b2707;
+		margin:70px;
+		font-size:20px;
+}
+
+#hero #about-me img{		
+			    height:35px;
+			    width:34px;
+			    padding:1px;
+			    margin:1px;
+}
+
+#professional-story{
+		    font-size:16px;
+   		    line-height:200%;
+		    font-weight:bold;
+		    font-family: 'Montserrat', sans-serif;						
+}
+
+#personal-me{
+	     background:#99FFCC url('../images/leh.jpg') center center;
+
+}
+
+#personal-decor{
+		background:#FFFFCC;
+}
+
+#personal-me #about-me {
+		    font-size:25px;
+   		    line-height:200%;
+		    font-weight:bold;
+		    font-family: 'Amatic SC', cursive; '						
+}
+
+footer{
+	text-align:center;
+	background:#4b2707;
+	font-family: 'Love Ya Like A Sister', cursive;
+	color:#e8c04f;
+
+}
+
+#projects{
+	
+	color:#4b2707;
+}
+#projects h2{
+	    font-size:16px;
+	    font-weight:bold;
+	    
+}
+
+#employment h2{
+	    font-size:16px;
+	    font-weight:bold;
+	    
+}
+
+#employee{
+	  margin:10px 10px 0px 0px;
+}
+
+#skills{
+		margin: 0;
+		padding:30px 0px;
+}
+
+#skills h1{
+	   margin:0;
+	   padding:0;
+	   
+}
+
+#skills ol{
+		margin:0;
+		padding:0;
+		list-style:none;
+		display:block;
+		line-height:30px;
+
+}
+
+#skills ol strong{
+		 	font-size:16px;
+}
+
+
+
+
+
+
+
+
+/* The Whole Story */
+
+
+
+/* News & Events */
+
+
+
+/* Footer */
+
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+
+
